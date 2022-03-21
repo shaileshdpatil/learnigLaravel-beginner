@@ -21,9 +21,7 @@
         </style>
     </head>
     <body class="antialiased">
+        <x-header data="welcome page header"/>
         <h1>Welcome Page</h1>
-        <a href="/">home</a>
-        <a href="/about">about</a>
-        <a href="/contact">contact</a>
     </body>
 </html>

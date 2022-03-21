@@ -17,6 +17,8 @@ use App\Http\Controllers\Test;
 // normal routes
 Route::view("/","welcome");
 
+Route::view("/test","contact");
+
 // dynamic route pass params
 Route::get("/contact/{name}",function($name){
     return view("contact",["test"=>$name]);

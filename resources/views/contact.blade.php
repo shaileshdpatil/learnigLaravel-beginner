@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>contact page {{$test}}</h1>
+    <x-header data="contact page header"/>
+    <h1>contact page</h1>
 </body>
 </html>
